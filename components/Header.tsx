@@ -11,8 +11,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-black/30 backdrop-blur">
       <div className="container flex items-center justify-between py-3">
-        <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.svg" width={128} height={32} alt="CardCast" />
+        <Link href="/" className="flex items-center gap-2" aria-label="picu home">
+          <Image src="/logo.svg" width={128} height={32} alt="picu" priority />
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <Link href="/pools" className="hover:opacity-80">Pools</Link>
